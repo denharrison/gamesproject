@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -130,7 +135,6 @@ b {
   width: 247px;
 }
 .gov__stripe {
-  width: 1900px;
   height: 90px;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.2);
