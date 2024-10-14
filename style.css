@@ -135,6 +135,7 @@ b {
   width: 247px;
 }
 .gov__stripe {
+  width: 1440px;
   height: 90px;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -147,7 +148,6 @@ b {
   flex-direction: row;
   align-items: center;
   gap: 51px;
-  margin-top: 156px;
 }
 .gov__stripe-text {
   color: rgb(32, 32, 39);

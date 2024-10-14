@@ -16,8 +16,8 @@ b{
 .gov{
     border-image: url(img/Gov\ fon.png);
     background: rgb(225, 255, 143);
-    width: 1440px;
-    height: 800px;
+    width: 100%;
+    max-width: 1440px;
 &__star{
     &-1{
     width: 57px;
@@ -52,7 +52,6 @@ b{
     left: 854px;
     right: -488px;
     top: -333.46px;
-    bottom: 5123px;
     }
     &-form-2{
     width: 83px;
@@ -130,6 +129,7 @@ b{
     width: 247px;
     }
     &__stripe{
+    width: 1440px;
     height: 90px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -141,7 +141,6 @@ b{
     flex-direction: row;
     align-items: center;
     gap: 51px;
-    margin-top: 156px;
     &-text{
         color: rgb(32, 32, 39);
     font-family: Montserrat;
