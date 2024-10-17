@@ -44,5 +44,6 @@ username: 'Феодосий',
 age: 10,
 isAdmin: true
 }
+// Задание №10
 let nickname = String(prompt('Как вас зовут?'));
 alert(`Привет, ${nickname}`);
