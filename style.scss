@@ -16,8 +16,8 @@ b{
 .gov{
     border-image: url(img/Gov\ fon.png);
     background: rgb(225, 255, 143);
-    width: 100%;
     max-width: 1440px;
+    height: 710px;
 &__star{
     &-1{
     width: 57px;
@@ -168,7 +168,6 @@ b{
     flex-wrap: wrap;
     flex-direction: column;
     gap: 24px;
-    padding-left: 119px;
     padding-top: 94px;
     }
     &__game-box{
@@ -178,7 +177,6 @@ b{
         width: 1201px;
         height: 1056px;
         padding-top: 72px;
-        padding-left: 119px;
         padding-right: 120px;
         justify-items: center;
         align-items: end;
@@ -245,7 +243,7 @@ padding-top: 16px;
     text-align: left;
     }
     .footer{
-    width: 1441px;
+    max-width: 1440px;
     height: 150px;  
     background: rgb(189, 237, 53);
     &__text{

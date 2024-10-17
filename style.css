@@ -22,8 +22,8 @@ b {
   -o-border-image: url(img/Gov\ fon.png);
      border-image: url(img/Gov\ fon.png);
   background: rgb(225, 255, 143);
-  width: 1440px;
-  height: 800px;
+  max-width: 1440px;
+  height: 710px;
   /* ТЕКСТОВАЯ ФОРМА С КНОПКОЙ */
 }
 .gov__star-1 {
@@ -59,7 +59,6 @@ b {
   left: 854px;
   right: -488px;
   top: -333.46px;
-  bottom: 5123px;
 }
 .gov__section-form-2 {
   width: 83px;
@@ -176,7 +175,6 @@ b {
   flex-wrap: wrap;
   flex-direction: column;
   gap: 24px;
-  padding-left: 119px;
   padding-top: 94px;
 }
 .about__game-box {
@@ -186,7 +184,6 @@ b {
   width: 1201px;
   height: 1056px;
   padding-top: 72px;
-  padding-left: 119px;
   padding-right: 120px;
   justify-items: center;
   align-items: end;
@@ -255,7 +252,7 @@ b {
 }
 
 .footer {
-  width: 1441px;
+  max-width: 1440px;
   height: 150px;
   background: rgb(189, 237, 53);
 }
