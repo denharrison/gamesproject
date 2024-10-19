@@ -4,10 +4,10 @@ alert (a);
 a = 20;
 alert (a);
 //  Задание №2
-let year = 2007;
+const year = 2007;
 alert (year);
 // Задание №3
-let namecreator = Brendan;
+const namecreator = 'Brendan';
 alert (namecreator);
 // Задание №4
 let number1 = 10;
